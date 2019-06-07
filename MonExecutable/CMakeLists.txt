@@ -5,7 +5,9 @@ project(MonExecutable)
 add_executable(MonExecutable ProjetCMake.cpp)
 
 target_link_libraries(MonExecutable MaBibliotheque)
+target_link_libraries(MonExecutable MaSousBibliotheque)
 
 include_directories("../MaBibliotheque")
+include_directories("../MaSousBibliotheque")
 
 install(TARGETS MonExecutable DESTINATION bin)
