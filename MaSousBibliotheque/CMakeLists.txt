@@ -4,9 +4,9 @@ project(MaSousBibliotheque)
 
 add_library(MaSousBibliotheque SHARED MaSousClasse.cpp)
 
-target_link_libraries(MaSousBibliotheque MaBibliotheque)
+target_link_libraries(MaSousBibliotheque PUBLIC MaBibliotheque)
 
-include_directories("../MaBibliotheque")
+target_include_directories(MaSousBibliotheque PUBLIC ${CMAKE_SOURCE_DIR}/MaBibliotheque)
 
 install(TARGETS MaSousBibliotheque DESTINATION lib)
 install(FILES MaSousClasse.h DESTINATION include/MaSousBibliotheque)
