@@ -1,7 +1,7 @@
 #ifndef MASOUSCLASSE_H
 #define MASOUSCLASSE_H
 
-#include "MaClasse.h"
+#include "MaBibliotheque/MaClasse.h"
 
 class MaSousClasse : public MaClasse
 {
