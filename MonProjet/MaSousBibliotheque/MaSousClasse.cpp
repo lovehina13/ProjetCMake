@@ -1,4 +1,4 @@
-#include "MaSousClasse.h"
+#include "MonProjet/MaSousBibliotheque/MaSousClasse.h"
 
 MaSousClasse::MaSousClasse() :
         MaClasse(), monSousEntier(0)

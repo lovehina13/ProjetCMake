@@ -1,5 +1,5 @@
-#ifndef MACLASSE_H
-#define MACLASSE_H
+#ifndef MONPROJET_MABIBLIOTHEQUE_MACLASSE_H
+#define MONPROJET_MABIBLIOTHEQUE_MACLASSE_H
 
 class MaClasse
 {
@@ -15,4 +15,4 @@ private:
     int monEntier;
 };
 
-#endif /* MACLASSE_H */
+#endif /* MONPROJET_MABIBLIOTHEQUE_MACLASSE_H */

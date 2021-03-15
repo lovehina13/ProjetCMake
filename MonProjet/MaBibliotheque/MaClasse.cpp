@@ -1,4 +1,4 @@
-#include "MaClasse.h"
+#include "MonProjet/MaBibliotheque/MaClasse.h"
 
 MaClasse::MaClasse() :
         monEntier(0)

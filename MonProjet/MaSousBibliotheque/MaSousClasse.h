@@ -1,7 +1,7 @@
-#ifndef MASOUSCLASSE_H
-#define MASOUSCLASSE_H
+#ifndef MONPROJET_MASOUSBIBLIOTHEQUE_MASOUSCLASSE_H
+#define MONPROJET_MASOUSBIBLIOTHEQUE_MASOUSCLASSE_H
 
-#include "MaBibliotheque/MaClasse.h"
+#include "MonProjet/MaBibliotheque/MaClasse.h"
 
 class MaSousClasse : public MaClasse
 {
@@ -17,4 +17,4 @@ private:
     int monSousEntier;
 };
 
-#endif /* MASOUSCLASSE_H */
+#endif /* MONPROJET_MASOUSBIBLIOTHEQUE_MASOUSCLASSE_H */

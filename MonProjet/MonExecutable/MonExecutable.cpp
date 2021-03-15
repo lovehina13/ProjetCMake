@@ -1,5 +1,5 @@
-#include "MaBibliotheque/MaClasse.h"
-#include "MaSousBibliotheque/MaSousClasse.h"
+#include "MonProjet/MaBibliotheque/MaClasse.h"
+#include "MonProjet/MaSousBibliotheque/MaSousClasse.h"
 #include <cstdlib>
 #include <iostream>
 
