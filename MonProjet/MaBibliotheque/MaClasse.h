@@ -4,15 +4,14 @@
 class MaClasse
 {
 public:
-    MaClasse();
-    MaClasse(const int& monEntier);
-    virtual ~MaClasse();
+    MaClasse() = default;
+    explicit MaClasse(const int& monEntier);
 
     const int& getMonEntier() const;
     void setMonEntier(const int& monEntier);
 
 private:
-    int monEntier;
+    int _monEntier{0};
 };
 
 #endif /* MONPROJET_MABIBLIOTHEQUE_MACLASSE_H */

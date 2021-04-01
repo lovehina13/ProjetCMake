@@ -1,28 +1,17 @@
 #include "MonProjet/MaBibliotheque/MaClasse.h"
 
-MaClasse::MaClasse() :
-        monEntier(0)
-{
-
-}
-
 MaClasse::MaClasse(const int& monEntier) :
-        monEntier(monEntier)
-{
-
-}
-
-MaClasse::~MaClasse()
+        _monEntier(monEntier)
 {
 
 }
 
 const int& MaClasse::getMonEntier() const
 {
-    return this->monEntier;
+    return _monEntier;
 }
 
 void MaClasse::setMonEntier(const int& monEntier)
 {
-    this->monEntier = monEntier;
+    _monEntier = monEntier;
 }

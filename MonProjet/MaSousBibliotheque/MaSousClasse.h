@@ -6,15 +6,14 @@
 class MaSousClasse : public MaClasse
 {
 public:
-    MaSousClasse();
+    MaSousClasse() = default;
     MaSousClasse(const int& monEntier, const int& monSousEntier);
-    virtual ~MaSousClasse();
 
     const int& getMonSousEntier() const;
     void setMonSousEntier(const int& monSousEntier);
 
 private:
-    int monSousEntier;
+    int _monSousEntier{0};
 };
 
 #endif /* MONPROJET_MASOUSBIBLIOTHEQUE_MASOUSCLASSE_H */

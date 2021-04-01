@@ -1,28 +1,17 @@
 #include "MonProjet/MaSousBibliotheque/MaSousClasse.h"
 
-MaSousClasse::MaSousClasse() :
-        MaClasse(), monSousEntier(0)
-{
-
-}
-
 MaSousClasse::MaSousClasse(const int& monEntier, const int& monSousEntier) :
-        MaClasse(monEntier), monSousEntier(monSousEntier)
-{
-
-}
-
-MaSousClasse::~MaSousClasse()
+        MaClasse(monEntier), _monSousEntier(monSousEntier)
 {
 
 }
 
 const int& MaSousClasse::getMonSousEntier() const
 {
-    return this->monSousEntier;
+    return _monSousEntier;
 }
 
 void MaSousClasse::setMonSousEntier(const int& monSousEntier)
 {
-    this->monSousEntier = monSousEntier;
+    _monSousEntier = monSousEntier;
 }
