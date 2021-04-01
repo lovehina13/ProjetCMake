@@ -3,14 +3,14 @@
 
 class MaClasse
 {
-public:
+  public:
     MaClasse() = default;
     explicit MaClasse(const int& monEntier);
 
     const int& getMonEntier() const;
     void setMonEntier(const int& monEntier);
 
-private:
+  private:
     int _monEntier{0};
 };
 

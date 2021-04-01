@@ -5,14 +5,14 @@
 
 class MaSousClasse : public MaClasse
 {
-public:
+  public:
     MaSousClasse() = default;
     MaSousClasse(const int& monEntier, const int& monSousEntier);
 
     const int& getMonSousEntier() const;
     void setMonSousEntier(const int& monSousEntier);
 
-private:
+  private:
     int _monSousEntier{0};
 };
 
